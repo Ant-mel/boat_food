@@ -4,7 +4,7 @@ import re
 
 st.title("HEY!")
 
-data = pd.read_csv('raw_data/Food Ingredients and Recipe Dataset with Image Name Mapping.csv')
+data = pd.read_csv('data/Food Ingredients and Recipe Dataset with Image Name Mapping.csv')
 data.drop(columns='Unnamed: 0', inplace=True)
 
 def get_ingredient_list(the_string):
